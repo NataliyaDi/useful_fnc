@@ -11,7 +11,7 @@ def execute_query(sql_query, commit=True, conn_db = connection):
   Execute sql query.
   
   :param sql_query: 
-  :param commit: if False - output the result (like `select`), True - execute query (like `insert`, `alter`, `drop`, `create` etc, without output)
+  :param commit: if False - return result (like `select`), True - execute query (like `insert`, `alter`, `drop`, `create` etc, without output)
   :param conn_db: connection to database
   """
     res = None
